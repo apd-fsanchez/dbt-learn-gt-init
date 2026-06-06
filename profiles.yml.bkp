@@ -1,0 +1,13 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      threads: 16
+      authenticator: externalbrowser
+      account: AIMPOINTDIGITAL-SANDBOX
+      user: FELIPE.SANCHEZ@AIMPOINTDIGITAL.COM
+      database: raw
+      warehouse: felipesanchez
+      schema: dbt_felipesanchez
+      role: felipesanchez
