@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: raw
+    description: "This is the source data for the jaffle shop project."
+    tables:
+      - name: orders
+        description: "This table contains all of the orders placed in the jaffle shop."
+      - name: customers
+        description: "This table contains all of the customers who have placed orders in the jaffle shop."
+
+  - name: stripe
+    database: raw
+    description: "This is the source data for the stripe project."
+    tables:
+      - name: payment
+        description: "This table contains all of the payments made in the stripe project."
+    
